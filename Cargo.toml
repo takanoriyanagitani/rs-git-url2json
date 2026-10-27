@@ -3,7 +3,15 @@ name = "rs-git-url2json"
 version = "0.1.0"
 edition = "2024"
 
+description = "Convert Git URLs to JSONs"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-git-url2json"
+homepage = "https://github.com/takanoriyanagitani/rs-git-url2json"
+documentation = "https://docs.rs/rs-git-url2json/latest"
+keywords = ["git", "url", "json", "convert", "wasi"]
+
 exclude = [
+  "git-url2json.wasm",
 ]
 
 [lints.rust]
